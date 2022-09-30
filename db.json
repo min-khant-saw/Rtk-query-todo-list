@@ -1,0 +1,22 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "name": "Min",
+      "email": "min@gmail.com",
+      "uidKey": "2N9ho0aJTN",
+      "time": "9/30/2022, 11:35:44 AM",
+      "editTime": ""
+    },
+    {
+      "id": 2,
+      "name": "Khant",
+      "email": "khant@gmail.com",
+      "uidKey": "dj6tEoAPxU",
+      "time": "9/30/2022, 5:56:27 PM",
+      "editTime": "9/30/2022, 6:52:45 PM"
+    }
+  ],
+  "comments": [],
+  "profile": {}
+}

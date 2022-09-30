@@ -1,0 +1,11 @@
+.edit {
+  transition: all 0.4s ease-in-out;
+  transform: scale(0);
+  height: 0;
+  overflow: hidden;
+}
+
+.edit-open {
+  height: 100%;
+  transform: scale(1);
+}

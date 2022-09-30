@@ -1,0 +1,52 @@
+.container-fluid {
+  min-height: 100vh;
+}
+
+.json {
+  max-height: 50%;
+  overflow: hidden;
+}
+
+.left-todo {
+  width: 50%;
+  max-height: 500px;
+  overflow: auto;
+}
+
+.left-todo::-webkit-scrollbar {
+  width: 0.5rem;
+}
+.left-todo::-webkit-scrollbar-track {
+  background: #333;
+}
+.left-todo::-webkit-scrollbar-thumb {
+  background-color: #545050;
+  border-radius: 6px;
+  border: 1px solid #eeeeee93;
+}
+
+.todos {
+  max-width: 100%;
+  transition: all 0.4s ease-in-out;
+}
+.pos {
+  position: absolute;
+  top: 0;
+}
+
+@media (max-width: 1024px) {
+  .pos {
+    position: relative;
+  }
+  .json {
+    flex-wrap: wrap !important;
+  }
+  .json-view {
+    order: 1;
+  }
+  .left-todo {
+    order: 2;
+    width: 100%;
+    max-height: 300px;
+  }
+}
